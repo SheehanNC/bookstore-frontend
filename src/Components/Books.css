@@ -1,0 +1,130 @@
+/* Shelf styles */
+.shelf {
+    height: 10px; /* Adjust height as needed */
+    width: 100%;
+    background-color: #8B4513; /* Dark brown color */
+    position: relative;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    border-radius: 5px; /* Add some border-radius for smoother edges */
+    background: linear-gradient(180deg, #8B4513 0%, #CD853F 100%); /* Add gradient for a 3D effect */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8); /* Add a large shadow */
+}
+
+/* Book card styles */
+.card {
+    width: 200px; /* Adjust card width as needed */
+}
+
+.card-img-top {
+    height: 200px; /* Adjust image height as needed */
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    color: #6c757d; /* Adjust subtitle color as needed */
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Modal Header */
+.modal-header {
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+.modal-title {
+    margin: 0;
+}
+
+/* Modal Body */
+.modal-body {
+    padding: 20px;
+}
+
+/* Modal Close Button */
+/* .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    color: #000;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+} */
+
+/* .close:hover {
+    opacity: 1;
+} */
+
+/* Modal Form */
+form {
+    margin-top: 20px;
+}
+
+/* Modal Form Elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Modal Button */
+.btn-primary {
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.rating-stars {
+  font-size: 24px; /* Adjust the size of stars as needed */
+}
+
+.rating-stars .star {
+  cursor: pointer;
+}
+
+.rating-stars .star.selected {
+  color: gold; /* Change the color of selected stars */
+}
+.dropdown {
+    font-size: 22px;
+  }
+  
+  .dropdown select {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }

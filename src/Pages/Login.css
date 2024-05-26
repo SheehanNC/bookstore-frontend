@@ -1,0 +1,10 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.login-background {
+  flex: 1;
+  background-size: cover;
+}
+

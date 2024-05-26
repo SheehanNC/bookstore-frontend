@@ -1,0 +1,180 @@
+/* FeedbackForm.css */
+
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #90c0ff 0%, #b4e1ff 99%, #bcd3ff 100%);
+    position: relative;
+  }
+  
+  .feedback-options {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .feedback-options:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  .feedback-options h2 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .options label {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 0.75rem;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+  }
+  
+  .options label:hover {
+    color: #007bff;
+    transform: translateX(5px);
+  }
+  
+  .feedback-form-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .feedback-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 1.25rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #444;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .btn-submit {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, #667eea, #4ba293);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .btn-submit:hover {
+    background: linear-gradient(135deg, #5a67d8, #4ba293);
+  }
+  
+  .success {
+    color: green;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Add this CSS to your existing Feedback.css file */
+
+.notification {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    z-index: 999;
+  }
+  
+  .notification.error {
+    background-color: #ff4d4f;
+    color: #ffffff;
+  }
+  
+  .notification.success {
+    background-color: #52c41a;
+    color: #ffffff;
+  }
+  
+  .back-btn {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .back-btn:hover {
+    background-color: #001d4d;
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,120 @@
+[
+    {
+        "title": "The Hunger Games",
+        "summary": "In a dystopian future, Katniss Everdeen volunteers for a deadly televised game where youths fight to the death for entertainment and survival.",
+        "price": 10.99
+    },
+    {
+        "title": "The Notebook",
+    
+        "summary": " A collection of thoughts, dreams, and sketches revealing the inner workings of the human mind across time and space.",
+        "price": 12.99
+    },
+    {
+        "title": "Dracula",
+
+        "summary": " Bram Stoker's Gothic masterpiece chronicles the terrifying exploits of the immortal Count Dracula as he preys upon Victorian England.",
+        "price": 8.99
+    },
+    {
+        "title": "Gone Girl",
+        "summary": "Navigates a twisted tale of marriage and deception after a woman's disappearance sparks a media frenzy.",
+        "price": 14.99
+    },
+    {
+        "title": "Twilight",
+        "summary": "Stephenie Meyer's saga of forbidden love intertwines the mortal Bella Swan and the immortal vampire Edward Cullen, amidst the backdrop of supernatural intrigue and teenage passion",
+        "price": 9.99
+    },
+    {
+        "title": "The Da Vinci Code",
+ 
+        "summary": "Unravels religious conspiracies as symbologist Robert Langdon races to solve a murder.",
+        "price": 11.99
+    },
+    {
+        "title": "Frankenstein",
+ 
+        "summary": "Explores ambition and consequence through the creation of a monstrous being",
+        "price": 13.99
+    },
+    {
+        "title": "The Silent Patient",
+        "summary": "Unveils the enigmatic silence of Alicia Berenson, a woman accused of a brutal murder, in a gripping psychological thriller.",
+        "price": 10.99
+    },
+    {
+        "title": "The Great Gatsby",
+    
+        "summary": "Jazz Age opulence, love, and betrayal unfold in F. Scott Fitzgerald's classic, revealing the American Dream's hollow core.",
+        "price": 11.99
+    },
+    {
+        "title": "Pride and Prejudice",
+
+        "summary": "Jane Austen's timeless romance follows the spirited Elizabeth Bennet and the enigmatic Mr. Darcy through Regency-era society's trials and tribulations.",
+        "price": 12.99
+    },
+    {
+        "title": "To Kill a Mockingbird",
+
+        "summary": "Harper Lee's seminal work delves into racial injustice and moral growth through the eyes of young Scout Finch in 1930s Alabama.",
+        "price": 11.99
+    },
+    {
+        "title": "1984",
+
+        "summary": "George Orwell's dystopian masterpiece explores totalitarianism, surveillance, and the erosion of truth in a haunting vision of a bleak future.",
+        "price": 14.99
+    },
+
+    {
+        "title": "The Lord of the Rings",
+
+        "summary": "In J.R.R. Tolkien's epic fantasy, a hobbit named Frodo carries the One Ring to Mount Doom, facing peril and forging alliances.",
+        "price": 13.99
+    },
+    {
+        "title": "The Chronicles of Narnia",
+
+        "summary": "The Chronicles of Narnia follows the adventures of children who discover the magical land of Narnia, encountering talking animals, mythical creatures, and epic battles",
+        "price": 14.99
+    },
+    {
+        "title": "Go Set a Watchman",
+
+        "summary": "The novel is set in the mid-1950s and follows the story of Jean Louise Scout Finch as she returns to her hometown of Maycomb, Alabama, from New York City. She comes back to visit her aging father, Atticus Finch, and to confront her own personal and societal beliefs.",
+        "price": 14.99
+    },
+    {
+        "title": "Inferno",
+
+        "summary": "Robert Langdon navigates a labyrinth of ancient symbols across Florence, deciphering puzzles to halt a cataclysmic threat after waking up in a hospital in Florence, Italy, with no memory of how he got there.",
+        "price": 14.99
+    },
+    {
+        "title": "The Last Man",
+        "summary" : "The Last Man by Mary Shelley: In a post-apocalyptic world ravaged by a deadly pandemic, the last survivor, Lionel Verney, struggles against despair and loneliness amidst the ruins of civilization.",
+        "price": 12.99
+    },
+    {
+        "title": "Mathilda",
+        "summary" : "The Last Man by Mary Shelley: In a post-apocalyptic world ravaged by a deadly pandemic, the last survivor, Lionel Verney, struggles against despair and loneliness amidst the ruins of civilization.",
+        "price": 11.99
+    },
+    {
+        "title": "Sense and Sensibility",
+        "summary" : "The story revolves around the Dashwood sisters, Elinor and Marianne, as they face financial hardship and romantic entanglements after their father's death. Elinor represents sense while Marianne embodies sensibility, and their differing approaches to life and love drive the narrative.",
+        "price": 10.99
+    },
+    {
+        "title": "The Jewel of Seven Stars",
+        "summary" : "This novel revolves around an archaeologist's attempt to revive an ancient Egyptian mummy, which leads to supernatural occurrences and terror.",
+        "price": 8.99
+    },
+    {
+        "title": "Deception Point",
+        "summary": "Harvard symbologist Robert Langdon investigates a murder linked to the Illuminati, unraveling cryptic clues and facing perilous challenges to prevent catastrophe.",
+        "price": 11.99
+    }
+]
