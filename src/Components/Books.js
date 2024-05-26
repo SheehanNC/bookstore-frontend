@@ -11,6 +11,24 @@ const Books = () => {
   const [bookDetails, setBookDetails] = useState({});
   const [selectedRating, setSelectedRating] = useState(0);
 
+  useEffect(() => {
+    const fetchRatings = async () => {
+      try {
+        const updatedBooks = await Promise.all(
+          books.map(async (book) => {
+            const response = await fetch(`https://bookstore-backend-uj9d.onrender.com/api/ratings/${book.id}`);
+            const data = await response.json();
+            return { ...book, rating: parseFloat(data.averageRating).toFixed(1) || 0 };
+          })
+        );
+        setBooks(updatedBooks);
+      } catch (error) {
+        console.error("Error fetching book ratings:", error);
+      }
+    };
+
+    fetchRatings();
+  }, []);
 
   useEffect(() => {
     // Fetch additional book details when selectedBook changes
