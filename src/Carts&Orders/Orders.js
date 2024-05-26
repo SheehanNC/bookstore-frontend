@@ -24,7 +24,7 @@ const OrdersComponent = () => {
 
       setIsLoading(true);
       const userEmail = localStorage.getItem("userEmail");
-      const response = await fetch(`http://localhost:4000/api/orders/${userEmail}`);
+      const response = await fetch(`https://bookstore-backend-uj9d.onrender.com/api/orders/${userEmail}`);
       if (response.ok) {
         const data = await response.json();
         setOrders(data);

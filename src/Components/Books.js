@@ -65,7 +65,7 @@ const Books = () => {
       }
 
       // Submit the rating
-      const response = await fetch("http://localhost:4000/api/ratings", {
+      const response = await fetch("https://bookstore-backend-uj9d.onrender.com/api/ratings", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -81,7 +81,7 @@ const Books = () => {
 
         // Fetch the updated rating for the selected book
         const updatedRatingResponse = await fetch(
-          `http://localhost:4000/api/ratings/${selectedBook.id}`
+          `https://bookstore-backend-uj9d.onrender.com/api/ratings/${selectedBook.id}`
         );
         const updatedRatingData = await updatedRatingResponse.json();
 

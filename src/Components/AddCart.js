@@ -51,7 +51,7 @@ const AddToCart = ({ bookId, bookPrice, bookName }) => {
       
 
       // Make API request to add item to cart
-      const response = await fetch("http://localhost:4000/api/cart-items", {
+      const response = await fetch("https://bookstore-backend-uj9d.onrender.com/api/cart-items", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

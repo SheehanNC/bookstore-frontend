@@ -33,7 +33,7 @@
       }
 
       try {
-        const response = await fetch('http://localhost:4000/api/feedback', {
+        const response = await fetch('https://bookstore-backend-uj9d.onrender.com/api/feedback', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

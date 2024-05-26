@@ -24,7 +24,7 @@ const Signup = () => {
         throw new Error('Passwords do not match');
         
       }
-      const response = await fetch('http://localhost:4000/api/signup', {
+      const response = await fetch('https://bookstore-backend-uj9d.onrender.com/api/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

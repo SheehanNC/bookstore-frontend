@@ -26,7 +26,7 @@ const CartComponent = () => {
 
       setIsLoading(true);
       const userEmail = localStorage.getItem("userEmail");
-      const response = await fetch(`http://localhost:4000/api/cart-items/${userEmail}`);
+      const response = await fetch(`https://bookstore-backend-uj9d.onrender.com/api/cart-items/${userEmail}`);
       if (response.ok) {
         const data = await response.json();
         console.log(userEmail);
@@ -45,7 +45,7 @@ const CartComponent = () => {
   const handleCheckout = async (_id) => {
     try {
     
-      const response = await fetch(`http://localhost:4000/api/checkout/${_id}`, {
+      const response = await fetch(`https://bookstore-backend-uj9d.onrender.com/api/checkout/${_id}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -67,7 +67,7 @@ const CartComponent = () => {
   const handleEmptyCart = async () => {
     try {
       const userEmail = localStorage.getItem("userEmail");
-      const response = await fetch(`http://localhost:4000/api/cart-items/${userEmail}`, {
+      const response = await fetch(`https://bookstore-backend-uj9d.onrender.com/api/cart-items/${userEmail}`, {
         method: "DELETE"
       });
       if (response.ok) {
