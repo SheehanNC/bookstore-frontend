@@ -131,16 +131,16 @@ const Books = () => {
     }
   };
 
-  useEffect(() => {
-    const storedRatings = JSON.parse(localStorage.getItem("ratings")) || {};
-    const updatedBooks = books.map((book) => {
-      // const rating = storedRatings[book.id.toString()] || 0;
-      const rating = storedRatings[book.id.toString()] !== undefined ? storedRatings[book.id.toString()] : 0;
+  // useEffect(() => {
+  //   const storedRatings = JSON.parse(localStorage.getItem("ratings")) || {};
+  //   const updatedBooks = books.map((book) => {
+  //     // const rating = storedRatings[book.id.toString()] || 0;
+  //     const rating = storedRatings[book.id.toString()] !== undefined ? storedRatings[book.id.toString()] : 0;
 
-      return { ...book, rating: rating };
-    });
-    setBooks(updatedBooks);
-  }, []);
+  //     return { ...book, rating: rating };
+  //   });
+  //   setBooks(updatedBooks);
+  // }, []);
 
   // Sort books based on rating (descending order)
   const sortedBooks = books.sort((a, b) => b.rating - a.rating);
